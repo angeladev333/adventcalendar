@@ -1,0 +1,47 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: 'PPEditorialNewItalic';
+  src: url('./fonts/PPEditorialNew-Italic.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'PPEditorialNewRegular';
+  src: url('./fonts/PPEditorialNew-Regular.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'PPEditorialNewUltra';
+  src: url('./fonts/PPEditorialNew-Ultrabold.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'PPEditorialNewUltraAlt1';
+  src: url('./fonts/PPEditorialNew-UltraboldItalic.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'PPEditorialNewUltraAlt2';
+  src: url('./fonts/PPEditorialNew-Ultralight.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'PPEditorialNewUltraAlt3';
+  src: url('./fonts/PPEditorialNew-UltralightItalic.otf') format('opentype');
+}
+
+body {
+  margin: 0;
+  font-family: "PPEditorialNewRegular",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
