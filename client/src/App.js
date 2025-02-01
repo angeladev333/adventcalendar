@@ -15,12 +15,12 @@ function App() {
 
   return (
     <NextUIProvider>
-      <div className="p-24 min-h-screen min-w-full bg-lightpink">
+      <div className="p-24 min-h-screen min-w-full">
         <div className="text-center">
-          <h1 className="font-bold text-5xl text-primarydark">
+          <h1 className="font-bold text-5xl text-rose-500">
             For Ririe, from Ranrie
           </h1>
-          <p className="text-xl p-4 text-secondarydark">2.14.2025</p>
+          <p className="text-xl p-4 text-rose-300">2.14.2025</p>
         </div>
         <div className="p-6 grid grid-cols-1 max-w-[964px]">
           <img src="/imgs/chimney.png" alt="Chimney" className="" />

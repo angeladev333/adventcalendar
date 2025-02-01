@@ -2,6 +2,13 @@
 @tailwind components;
 @tailwind utilities;
 
+
+html, body {
+  background-color: #FBEAD9;
+  min-height: 100%;
+  margin: 0;
+}
+
 @font-face {
   font-family: 'PPEditorialNewItalic';
   src: url('./fonts/PPEditorialNew-Italic.otf') format('opentype');
