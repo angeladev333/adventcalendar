@@ -11,6 +11,11 @@ module.exports = {
       colors: {
         lightgreen: '#F9FFF1',
         primarygreen: '#458352',
+        lightpink: '#FBEAD9',
+        whitebeige: '#F6F5E1',
+        primarypink: '#FB928E',
+        primarydark: '#441752',
+        secondarydark: '#A888B5',
       },
     },
   },

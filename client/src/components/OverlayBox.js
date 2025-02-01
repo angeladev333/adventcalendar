@@ -1,8 +1,9 @@
 import React, { useState } from 'react';
 import { Modal, ModalContent, ModalHeader, ModalBody } from '@nextui-org/modal';
+import './OverlayBox.css';
 
 // TODO: add animation on hover motion
-const OverlayBox = ({ dayNumber, children }) => {
+const OverlayBox = ({ dayNumber, title, children }) => {
   const [isHovered, setIsHovered] = useState(false);
   const [isOpen, setIsOpen] = useState(false);
 
@@ -17,8 +18,10 @@ const OverlayBox = ({ dayNumber, children }) => {
     <>
       <img
         src={isHovered || isOpen ? hoverImage : idleImage}
-        alt={`Day ${dayNumber}`}
-        className="cursor-pointer"
+        alt={`${title}`}
+        className={`cursor-pointer transition-image ${
+          isHovered ? 'hovered' : ''
+        }`}
         onMouseEnter={handleMouseEnter}
         onMouseLeave={handleMouseLeave}
         onClick={() => setIsOpen((prev) => !prev)}
@@ -29,9 +32,9 @@ const OverlayBox = ({ dayNumber, children }) => {
         onOpenChange={setIsOpen}
         backdrop="blur"
         classNames={{
-          backdrop: 'bg-[#004d40]/50',
-          base: 'bg-[#1B1B1B] text-white',
-          header: 'border-b border-[#004d40]',
+          backdrop: 'bg-[#8174A0]/50',
+          base: 'bg-[#441752] text-white min-w-[68%] min-h-[68%]',
+          header: 'border-b border-[#8174A0]',
           body: 'py-6',
         }}
         size="4xl"
@@ -41,10 +44,8 @@ const OverlayBox = ({ dayNumber, children }) => {
         <ModalContent>
           {(onClose) => (
             <>
-              <ModalHeader>Day {dayNumber}</ModalHeader>
-              <ModalBody>
-                <p>Hello!</p>
-              </ModalBody>
+              <ModalHeader className="text-xl p-6">{title}</ModalHeader>
+              <ModalBody className="text-lg">{children}</ModalBody>
             </>
           )}
         </ModalContent>
