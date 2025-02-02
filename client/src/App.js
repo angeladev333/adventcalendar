@@ -1,6 +1,7 @@
 import './App.css';
 import OverlayBox from './components/OverlayBox';
 import { NextUIProvider } from '@nextui-org/react';
+import { motion } from 'motion/react';
 
 function App() {
   const startDate = new Date('2023-10-15');
@@ -15,14 +16,38 @@ function App() {
 
   return (
     <NextUIProvider>
-      <div className="p-24 min-h-screen min-w-full">
-        <div className="text-center">
+      <motion.div
+        className="p-24 min-h-screen min-w-full"
+        initial={{ opacity: 0 }}
+        animate={{ opacity: 1 }}
+        exit={{ opacity: 0 }}
+        transition={{ duration: 1.3 }}
+      >
+        <motion.div
+          className="text-center"
+          initial={{ opacity: 0, scale: 0.5 }}
+          animate={{ opacity: 1, scale: 1 }}
+          transition={{
+            duration: 0.8,
+            delay: 0.5,
+            ease: [0, 0.71, 0.2, 1.01],
+          }}
+        >
           <h1 className="font-bold text-5xl text-rose-500">
             For Ririe, from Ranrie
           </h1>
           <p className="text-xl p-4 text-rose-300">2.14.2025</p>
-        </div>
-        <div className="p-6 grid grid-cols-1 max-w-[964px]">
+        </motion.div>
+        <motion.div
+          className="p-6 grid grid-cols-1 max-w-[964px]"
+          initial={{ opacity: 0, scale: 0.5 }}
+          animate={{ opacity: 1, scale: 1 }}
+          transition={{
+            duration: 0.8,
+            delay: 0.5,
+            ease: [0, 0.71, 0.2, 1.01],
+          }}
+        >
           <img src="/imgs/chimney.png" alt="Chimney" className="" />
           <div className="px-3">
             <div className="p-6 outline outline-4 outline-primarypink flex flex-col bg-whitebeige">
@@ -195,8 +220,8 @@ function App() {
             </div>
           </div>
           <img src="/imgs/lobby.png" alt="Lobby" className="" />
-        </div>
-      </div>
+        </motion.div>
+      </motion.div>
     </NextUIProvider>
   );
 }
