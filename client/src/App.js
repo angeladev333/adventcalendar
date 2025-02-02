@@ -60,15 +60,52 @@ function App() {
                     </p>
                   </>
                 </OverlayBox>
-                <OverlayBox dayNumber="2" title="Day 2 - Learning"></OverlayBox>
-                <OverlayBox
-                  dayNumber="3"
-                  title="Day 3 - Acclimation"
-                ></OverlayBox>
-                <OverlayBox
-                  dayNumber="4"
-                  title="Day 4 - Appreciation"
-                ></OverlayBox>
+                <OverlayBox dayNumber="2" title="Day 2 - Learning">
+                  <>
+                    <p>
+                      Remember when we first started dating, we promised each
+                      other to mutually improve, academically and personally?{' '}
+                    </p>
+                    <img
+                      src="https://media0.giphy.com/media/1oBwBVLGoLteCP2kyD/200w.gif?cid=6c09b952wtump61pv10txtb0ddfj5jf1f9po99h21yngurot&ep=v1_gifs_search&rid=200w.gif&ct=g"
+                      alt="studying Ririe"
+                      className="m-4 h-36 w-auto mx-auto"
+                    />
+                    <p>
+                      Let's keep on doing that, whether it's leetcoding,
+                      exploring nature and other fun places, or *trying to*
+                      study together, I've learnt a lot from you and I'll keep
+                      on trying to improve. I hope you feel the same way too.
+                    </p>
+                    <p className="underline">
+                      The next 7 bobas are on me, to fuel our study sessions! 🧋
+                    </p>
+                  </>
+                </OverlayBox>
+                <OverlayBox dayNumber="3" title="Day 3 - Acclimation">
+                  <>
+                    <p>
+                      With each passing day, spending time together may not be a
+                      special occasion anymore. But despite becoming accustomed
+                      to your presence in my life, I'll make an effort to treat
+                      everyday as special as today.
+                    </p>
+                    <img
+                      src="https://i.pinimg.com/originals/fa/6b/fa/fa6bfabcc8600a6ddabf9fcb350890b5.gif"
+                      alt="sleeping Ranrie"
+                      className="m-4 h-48 w-auto mx-auto"
+                    />
+                    <p className="underline">
+                      Here's to more sleep together! +7 Sleepy Coupons.
+                    </p>
+                  </>
+                </OverlayBox>
+                <OverlayBox dayNumber="4" title="Day 4 - Appreciation">
+                  <>
+                    <p>Thank you for showing up in my life Ririe. I love </p>
+                    <p>Ms Fu on me {':)'}</p>
+                  </>
+                </OverlayBox>
                 <div className="grid grid-cols-1">
                   <OverlayBox dayNumber="5"></OverlayBox>
                   <OverlayBox
