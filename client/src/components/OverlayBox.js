@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { Modal, ModalContent, ModalHeader, ModalBody } from '@nextui-org/modal';
 import './OverlayBox.css';
 
-// TODO: add animation on hover motion
+// TODO: add animation
 const OverlayBox = ({ dayNumber, title, children }) => {
   const [isHovered, setIsHovered] = useState(false);
   const [isOpen, setIsOpen] = useState(false);

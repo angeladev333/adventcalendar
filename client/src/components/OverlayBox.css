@@ -1,8 +1,8 @@
 .transition-image {
-    transition: transform 0.3s ease, opacity 0.3s ease;
+    transition: transform 0.5s ease, opacity 0.3s ease;
   }
   
   .transition-image.hovered {
-    transform: scale(1.05);
+    transform: scale(1.03);
     /* opacity: 0.8; */
   }

@@ -2,9 +2,17 @@
 @tailwind components;
 @tailwind utilities;
 
+html, body {
+  background-color: #FBEAD9;
+  min-height: 100%;
+  margin: 0;
+  padding: 0;
+  /* overflow: hidden; */
+}
+
 .App {
   text-align: center;
-  /* background-color: #FBEAD9; */
+  /* overflow: hidden; */
 }
 
 .App-logo {

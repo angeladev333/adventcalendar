@@ -78,7 +78,7 @@ function App() {
                       on trying to improve. I hope you feel the same way too.
                     </p>
                     <p className="underline">
-                      The next 7 bobas are on me, to fuel our study sessions! 🧋
+                      The next 2 bobas are on me, to fuel our study sessions! 🧋
                     </p>
                   </>
                 </OverlayBox>
@@ -96,22 +96,64 @@ function App() {
                       className="m-4 h-48 w-auto mx-auto"
                     />
                     <p className="underline">
-                      Here's to more sleep together! +7 Sleepy Coupons.
+                      Here's to more sleep together! +3 Sleepy Coupons.
                     </p>
                   </>
                 </OverlayBox>
                 <OverlayBox dayNumber="4" title="Day 4 - Appreciation">
                   <>
-                    <p>Thank you for showing up in my life Ririe. I love </p>
-                    <p>Ms Fu on me {':)'}</p>
+                    <p>
+                      Thank you for being in my life Ririe. You showed me how to
+                      be more hardworking; how good spicy food can be; how to
+                      appreciate nature; how to be healthy; how to cook, drive,
+                      find my direction, and many more essential life skills.
+                    </p>
+                    <img
+                      src="https://media.tenor.com/3NUf0oM6g6YAAAAM/couplegoals-peachmad.gif"
+                      alt="eating Ranrie"
+                      className="m-4 h-48 w-auto mx-auto"
+                    />
+                    <p>
+                      I hope to discover more delicious food with you.{' '}
+                      <span className="underline">Next Ms Fu is on me!</span>
+                    </p>
                   </>
                 </OverlayBox>
                 <div className="grid grid-cols-1">
-                  <OverlayBox dayNumber="5"></OverlayBox>
+                  <OverlayBox dayNumber="5" title="Day 5 - Adventure">
+                    <p>
+                      There's a place you've been talking a lot about lately...
+                    </p>
+                    <img
+                      src="https://i.pinimg.com/originals/2e/ee/9a/2eee9a834d84c976636e8a3f8ba8fddf.gif"
+                      alt="travel"
+                      className="m-4 h-60 w-auto mx-auto"
+                    />
+                    <p className="underline">Let's go to Buffalo! </p>
+                  </OverlayBox>
                   <OverlayBox
                     dayNumber="6"
                     title="Day 6 - Bracing Against the Unknown"
-                  ></OverlayBox>
+                  >
+                    <>
+                      <p>
+                        Wow, that trip must be exhausting. Ranrie wants to make
+                        it easier for Ririe.
+                      </p>
+                      <img
+                        src="https://media.tenor.com/67gM1DctlMsAAAAj/peach-goma.gif"
+                        alt="massaging Ririe"
+                        className="m-4 h-48 w-auto mx-auto"
+                      />
+                      <p>
+                        After the Buffalo trip, Ririe will give a{' '}
+                        <span className="underline">
+                          30 minute soothing massage
+                        </span>
+                        !
+                      </p>
+                    </>
+                  </OverlayBox>
                 </div>
                 <OverlayBox
                   dayNumber="7"
@@ -120,20 +162,33 @@ function App() {
                   <>
                     <p>
                       I promise to always be there for you, to support you, to
-                      love you, and to cherish you. <br />
-                      I promise to always be honest with you, to communicate
-                      with you, and to be patient with you. <br />
-                      I promise to always be kind to you, to respect you, and to
-                      be loyal to you. <br />
-                      I promise to always be your partner, your friend, and your
-                      lover. <br />I promise to always be your Ranrie.
+                      love you, and to cherish you.{' '}
+                      <span className="underline text-rose-300">
+                        +1 Sleepy Coupon
+                      </span>
+                      <br />I promise to always be kind to you, to respect you,
+                      and to be loyal to you.{' '}
+                      <span className="underline text-rose-300">
+                        +1 Sleepy Coupon
+                      </span>
+                      <br />I promise to always be your partner, your friend,
+                      and your lover.{' '}
+                      <span className="underline text-rose-300">
+                        +1 Sleepy Coupon
+                      </span>
+                      <br />I promise to always be your Ranrie.{' '}
+                      <span className="underline text-rose-300">
+                        +1 Sleepy Coupon
+                      </span>
                     </p>
                     <img
                       src="https://media.tenor.com/UtEMV7qJev8AAAAi/hiiru-hiiruthemouse.gif"
                       alt="Ranrie's Choco gift"
                       className="m-4 h-48 w-auto mx-auto"
                     />
-                    <p>Happy Valentines Day, Ririe!</p>
+                    <p className="text-xl font-bold underline decoration-wavy decoration-primarypink">
+                      Happy Valentines Day, Ririe!
+                    </p>
                   </>
                 </OverlayBox>
               </div>
