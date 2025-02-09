@@ -140,21 +140,75 @@ function App() {
                     />
                     <p>
                       I hope to discover more delicious food with you.{' '}
-                      <span className="underline">Next Ms Fu is on me!</span>
+                      <span className="underline">
+                        Next Ms Fu is on me! {'('} Once they open up again{')'}
+                      </span>
                     </p>
                   </>
                 </OverlayBox>
                 <div className="grid grid-cols-1">
-                  <OverlayBox dayNumber="5" title="Day 5 - Adventure">
+                  <OverlayBox
+                    dayNumber="5"
+                    title="Day 5 - Appreciation Part II"
+                  >
                     <p>
-                      There's a place you've been talking a lot about lately...
+                      Each year you've made me feel special, and I remember
+                      everything you've done for me.
                     </p>
-                    <img
-                      src="https://i.pinimg.com/originals/2e/ee/9a/2eee9a834d84c976636e8a3f8ba8fddf.gif"
-                      alt="travel"
-                      className="m-4 h-60 w-auto mx-auto"
-                    />
-                    <p className="underline">Let's go to Buffalo! </p>
+                    <div className="flex">
+                      <div className="text-sm">
+                        <li>
+                          Previously /special-locked and /graphics/angie2024
+                        </li>
+                        <li>
+                          Notion cards, apple watch, squishmallows, bags on my
+                          bday
+                        </li>
+                        <li>Planning every trip we take together</li>
+                        <li>
+                          Planning our exchange and coordinating our sequences
+                        </li>
+                        <li>Being patient with me and my family</li>
+                        <li>Listening and being supportive of my rants</li>
+                        <li>Bought everything for me in Orlando</li>
+                        <li>
+                          Welcoming me in New York and coming to Markham with me
+                        </li>
+                        <li>Cooking and taking care of me on my period</li>
+                        <li>Introducing me to all your friends </li>
+                        <li>Being my personal GPS</li>
+                        <li>Including me in the Magi dinner</li>
+                        <li>Coming after me in Orlando</li>
+                        <li>Helping me study and interview prep</li>
+                        <li>
+                          Encouraging a healthy lifestyle from rock climbing and
+                          hiking
+                        </li>
+                        <li>
+                          Introducing me to delicious foods and beautiful places
+                          in nature
+                        </li>
+                        <li>Paying attention to Japan news for me</li>
+                        <li>Endulging in my pink stores window shopping</li>
+                      </div>
+                      <img
+                        alt="love you Ririe"
+                        src="https://media.tenor.com/tO85mO366xYAAAAj/amore-love-you.gif"
+                        className="m-4 h-48 w-auto"
+                      />
+                    </div>
+
+                    <p>
+                      You've said before that I don't see everything you do, and
+                      I acknowledge that this list is incomplete. If there's
+                      anything I've missed, please tell me so I can appreciate
+                      your actions more. Your wisdom and life experiences go far
+                      beyond your age and I'm grateful that you chose me to be
+                      your partner. I love that you take good care of your
+                      family and friends, your hardworking and kind spirit, and
+                      your integrity. I hope we continue to inspire each other
+                      and grow together.
+                    </p>
                   </OverlayBox>
                   <OverlayBox
                     dayNumber="6"
@@ -162,8 +216,7 @@ function App() {
                   >
                     <>
                       <p>
-                        Wow, that trip must be exhausting. Ranrie wants to make
-                        it easier for Ririe.
+                        Sorry I haven't been with you at night lately Ririe 😢
                       </p>
                       <img
                         src="https://media.tenor.com/67gM1DctlMsAAAAj/peach-goma.gif"
@@ -171,7 +224,7 @@ function App() {
                         className="m-4 h-48 w-auto mx-auto"
                       />
                       <p>
-                        After the Buffalo trip, Ririe will give a{' '}
+                        Coupon: Ranrie will give a{' '}
                         <span className="underline">
                           30 minute soothing massage
                         </span>
